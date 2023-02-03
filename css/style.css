@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family= Poppins: wght @100;200;400;600 & display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+
+    --font-poppins: 'Poppins', arial, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    width: 61.5rem;
+    height: auto;
+    margin: 7rem 0rem 7rem;
+}
+
+.header h1{
+    text-align: center;
+    font-family: var(--font-poppins);
+    font-weight: 100;
+    font-size: min(4.5rem, 10vw);
+}
+
+.header h2{
+    text-align: center;
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    font-size: min(4.5rem, 10vw);
+    margin: 2rem 0rem 2rem;
+}
+
+.header .header-description{
+    text-align: center;
+    font-family: var(--font-poppins);
+    font-size: 2rem;
+    font-weight: 200;
+    color: var(--Grayish-Blue);
+}
+
+
+
+
+.container{
+    width: 90%;
+    height: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--Orange);
+}
+
+.card{
+    width: 34.5rem;
+    height: 24.5rem;
+    background-color: red;
+    padding: 3rem;
+    border-radius: 0.5rem;
+}
+
+.card-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card-title{
+    font-family: var(--font-poppins);
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.card .card-description{
+    font-family: var(--font-poppins);
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--Grayish-Blue);
+}
+
+.card-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
