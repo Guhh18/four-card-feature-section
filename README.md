@@ -15,7 +15,7 @@ Users must be able to:
 
 ### Print Screen
 
-![](screenshot/desktop preview.png)
+![](screenshot/desktop-view.png)
 ![](screenshot/mobile-view.png)
 
 
